@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "dev": "wrangler dev src/index.ts",
+    "deploy": "wrangler deploy --minify src/index.ts"
+  },
+  "dependencies": {
+    "@noble/ed25519": "^2.1.0",
+    "@types/node": "^20.12.12",
+    "hono": "^4.3.11",
+    "qrcode-generator": "^1.4.4",
+    "viem": "^2.12.4"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240403.0",
+    "wrangler": "^3.47.0"
+  }
+}
