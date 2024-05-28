@@ -1,6 +1,6 @@
 # Farcaster Keys Server
 
-This is an open sourced Hono server deployed via a Cloudflare worker that can be used for creating and authorizing signer keys on Farcaster.
+This is an open sourced Hono server deployed via a Cloudflare worker that can be used for creating and authorizing signer keys on Farcaster. It's not the most ideal approach as something like [Farcaster Auth](https://docs.pinata.cloud/farcaster/farcaster-auth) is much more streamline and scales better, but it can come in handy for certain use cases and educational settings on how keys in Farcaster work.
 
 It is currently being used in production to assist with authorizing Raycaster.
 
